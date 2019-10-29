@@ -1,0 +1,30 @@
+.idea
+
+# netbeans project files
+nbproject/
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+backup/
+new/
+storage/
+# composer vendor dir
+vendor/
+
+composer.lock
+
+# local phpunit config
+phpunit.xml
+
+tests/unit/data/*
+!tests/unit/data/developerlife - Tutorials » GWT Tutorial - Deploying GWT Apps.rar
+tests/functional/

@@ -1,0 +1,19 @@
+{
+    "name": "zigr/lab-rar-archive",
+    "description": "PHP RarArchive extension integration with  https://github.com/thephpleague/flysystem flysystem",
+    "type": "library",
+    "license": "http://www.apache.org/licenses/ Apache License 2.0",
+    "minimum-stability": "dev",
+    "require":{
+    },
+    "require-dev": {
+        "league/flysystem": "^1.0",
+        "league/flysystem-ziparchive": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "zigr\\Flysystem\\RarArchive\\": "src/"
+	}
+     }
+
+}
